@@ -50,6 +50,26 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8f9ae1f96071d8d498057f9689366efb, type: 3}
   - {fileID: 21300000, guid: 2530863db556bea4e8d97528dbbcd7bd, type: 3}
   - {fileID: 21300000, guid: 8f9ae1f96071d8d498057f9689366efb, type: 3}
+  front_bottom: {fileID: 21300000, guid: fe2322da636f23942845724a9e3ff750, type: 3}
+  front_chest: {fileID: 21300000, guid: 0027ca8553f930f40b8e6687a0483bf5, type: 3}
+  front_neck: {fileID: 0}
+  front_skirt_L: {fileID: 21300000, guid: 0f9702cc8bb1da84e851193efe71ad32, type: 3}
+  front_skirt_M: {fileID: 0}
+  front_skirt_R: {fileID: 21300000, guid: 903250d1625053a48b3e0ca1b6bcf6d1, type: 3}
+  side_bottom: {fileID: 21300000, guid: 699ed30afb62b6541ad6a62ea9398e09, type: 3}
+  side_chest: {fileID: 21300000, guid: 7271d9f5f47c5254eada10993badae60, type: 3}
+  side_neck: {fileID: 0}
+  side_skirt_L: {fileID: 21300000, guid: a372c1b476e31d14c9c1b4d9edbe8828, type: 3}
+  side_skirt_M: {fileID: 0}
+  side_skirt_R: {fileID: 0}
+  back_bottom: {fileID: 21300000, guid: 5c85461f02ca8854bbb41b6cd5dcad65, type: 3}
+  back_chest: {fileID: 21300000, guid: f2eecc81ce647af45a3cd80a8806715e, type: 3}
+  back_neck: {fileID: 0}
+  back_chest_behind: {fileID: 21300000, guid: 9409413b4c8e633479f34bb769d86357, type: 3}
+  back_bottom_behind: {fileID: 0}
+  back_skirt_L: {fileID: 21300000, guid: d9ceefa73a4686449943305552316eeb, type: 3}
+  back_skirt_M: {fileID: 21300000, guid: c3694989be4e431438a5327dd8dd22a4, type: 3}
+  back_skirt_R: {fileID: 21300000, guid: 1353dc9d8ce4d4f44932d3c04b12d3a5, type: 3}
   _masks:
   - {fileID: 0}
   - {fileID: 21300000, guid: 9fe074b493390054e98ca900fae93ded, type: 3}

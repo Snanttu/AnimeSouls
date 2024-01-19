@@ -6,7 +6,7 @@ public class Equipment_Manager : MonoBehaviour
 {
     [Header("Equipped Items")]
     [SerializeField]
-    private Armor_Chest _equippedChest;
+    private Armor_Shirt _equippedChest;
     [SerializeField]
     private Armor_Pants _equippedPants;
     [SerializeField]
@@ -37,7 +37,7 @@ public class Equipment_Manager : MonoBehaviour
     [SerializeField]
     private SpriteMask[] _bootsMasks;
 
-    private Armor_Chest _currentChest;
+    private Armor_Shirt _currentChest;
     private Armor_Pants _currentPants;
     private Armor_Boots _currentBoots;
     private Armor_Gloves _currentGloves;
