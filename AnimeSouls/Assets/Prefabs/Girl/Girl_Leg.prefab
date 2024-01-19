@@ -493,6 +493,11 @@ MonoBehaviour:
   boots_foot: {fileID: 7054796594000561152}
   thigh_Behind: {fileID: 0}
   pants_Behind: {fileID: 0}
+  mask_thigh: {fileID: 8746287040125057982}
+  mask_calf: {fileID: 8043222776583554853}
+  mask_foot: {fileID: 5620891087199032280}
+  mask_pants_calf: {fileID: 2846941953130079953}
+  mask_pants_foot: {fileID: 1350807403004499912}
 --- !u!212 &1823563336095622163
 SpriteRenderer:
   m_ObjectHideFlags: 0

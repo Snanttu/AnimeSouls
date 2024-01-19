@@ -1459,6 +1459,11 @@ MonoBehaviour:
   bottom_behind: {fileID: 0}
   shirt_bottom_behind: {fileID: 0}
   pants_bottom_behind: {fileID: 0}
+  mask_bottom: {fileID: 6902350775089642905}
+  mask_chest: {fileID: 2751016369410093473}
+  mask_neck: {fileID: 466933825622867102}
+  mask_bottom_behind: {fileID: 0}
+  mask_chest_behind: {fileID: 0}
 --- !u!212 &2994184333839829362
 SpriteRenderer:
   m_ObjectHideFlags: 0

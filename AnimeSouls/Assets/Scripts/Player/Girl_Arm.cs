@@ -26,6 +26,14 @@ public class Girl_Arm : MonoBehaviour
     [SerializeField]
     private SpriteRenderer gloves_forearm_behind;
 
+    [Header("Masks")]
+    [SerializeField]
+    private SpriteMask mask_bicep;
+    [SerializeField]
+    private SpriteMask mask_forearm;
+    [SerializeField]
+    private SpriteMask mask_shirt_forearm;
+
     public void UpdateArmsSprites(Sprite[] sprites)
     {
         shoulder.sprite = sprites[0];

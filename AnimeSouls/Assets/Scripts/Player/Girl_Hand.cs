@@ -6,24 +6,32 @@ public class Girl_Hand : MonoBehaviour
 {
     [Header("Hand")]
     [SerializeField]
-    private SpriteRenderer fist_front;
+    private SpriteRenderer fist;
     [SerializeField]
-    private SpriteRenderer fist_back;
+    private SpriteRenderer palm;
     [SerializeField]
-    private SpriteRenderer fist_fingers;
+    private SpriteRenderer fingers;
 
     [Header("Gloves")]
     [SerializeField]
-    private SpriteRenderer gloves_fist_front;
+    private SpriteRenderer gloves_fist;
     [SerializeField]
-    private SpriteRenderer gloves_fist_back;
+    private SpriteRenderer gloves_palm;
     [SerializeField]
-    private SpriteRenderer gloves_fist_fingers;
+    private SpriteRenderer gloves_fingers;
+
+    [Header("Masks")]
+    [SerializeField]
+    private SpriteMask mask_fist;
+    [SerializeField]
+    private SpriteMask mask_palm;
+    [SerializeField]
+    private SpriteMask mask_fingers;
 
     public void UpdateHandSprites(Sprite[] sprites)
     {
-        fist_front.sprite = sprites[0];
-        fist_back.sprite = sprites[1];
-        fist_fingers.sprite = sprites[2];
+        fist.sprite = sprites[0];
+        palm.sprite = sprites[1];
+        fingers.sprite = sprites[2];
     }
 }

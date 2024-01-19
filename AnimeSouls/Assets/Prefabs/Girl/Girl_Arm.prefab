@@ -111,7 +111,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &2140775083051087196
 GameObject:
@@ -355,7 +355,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6436762735988256290}
   m_Father: {fileID: 734042937084014839}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -792,11 +793,14 @@ MonoBehaviour:
   shoulder: {fileID: 6711602862766436632}
   bicep: {fileID: 6711602861888608930}
   forearm: {fileID: 6711602861971748189}
-  shirt_shoulder: {fileID: 0}
+  shirt_shoulder: {fileID: 3159004269894349740}
   shirt_bicep: {fileID: 2804440295588071237}
   shirt_forearm: {fileID: 7438970916955369795}
   gloves_forearm: {fileID: 703929215295887207}
   gloves_forearm_behind: {fileID: 1532689726946157906}
+  mask_bicep: {fileID: 1536491073140895981}
+  mask_forearm: {fileID: 1613679994303906424}
+  mask_shirt_forearm: {fileID: 2893612463606364815}
 --- !u!1 &8631509163698925478
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +830,6 @@ Transform:
   m_Children:
   - {fileID: 1708842947532420396}
   - {fileID: 1018989255506083800}
-  - {fileID: 6436762735988256290}
   m_Father: {fileID: 6711602861971748190}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -858,8 +861,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 734042937084014839}
-  m_RootOrder: 2
+  m_Father: {fileID: 1018989255506083800}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1532689726946157906
 SpriteRenderer:

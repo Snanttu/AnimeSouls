@@ -36,6 +36,18 @@ public class Girl_Torso : MonoBehaviour
     [SerializeField]
     private SpriteRenderer pants_bottom_behind;
 
+    [Header("Masks")]
+    [SerializeField]
+    private SpriteMask mask_bottom;
+    [SerializeField]
+    private SpriteMask mask_chest;
+    [SerializeField]
+    private SpriteMask mask_neck;
+    [SerializeField]
+    private SpriteMask mask_bottom_behind;
+    [SerializeField]
+    private SpriteMask mask_chest_behind;
+
     public void UpdateTorsoSprites(Sprite[] sprites, Sprite bottomBehind = null, Sprite chectBehind = null)
     {
         bottom.sprite = sprites[0];

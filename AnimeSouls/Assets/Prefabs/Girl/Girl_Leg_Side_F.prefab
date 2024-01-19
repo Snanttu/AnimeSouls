@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2906979915760458060}
   - component: {fileID: 3107476486754221057}
   - component: {fileID: 5599277693829237752}
+  - component: {fileID: 1870697984893676135}
   m_Layer: 0
   m_Name: Thigh_Behind
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!210 &5599277693829237752
 SortingGroup:
@@ -95,6 +96,56 @@ SortingGroup:
   m_SortingLayerID: -503923143
   m_SortingLayer: 2
   m_SortingOrder: -1
+--- !u!331 &1870697984893676135
+SpriteMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876374703204511137}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_MaskAlphaCutoff: 0.2
+  m_FrontSortingLayerID: -503923143
+  m_BackSortingLayerID: -503923143
+  m_FrontSortingLayer: 2
+  m_BackSortingLayer: 2
+  m_FrontSortingOrder: 1
+  m_BackSortingOrder: -1
+  m_IsCustomRangeActive: 1
+  m_SpriteSortPoint: 0
 --- !u!1 &2102231736397418877
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,6 +247,14 @@ PrefabInstance:
       propertyPath: thigh_Behind
       value: 
       objectReference: {fileID: 3107476486754221057}
+    - target: {fileID: 4089040807155516111, guid: 05bb042cd5b8a74478a2ce6b807eefd5, type: 3}
+      propertyPath: mask_thigh_behind
+      value: 
+      objectReference: {fileID: 1870697984893676135}
+    - target: {fileID: 4588157554528442512, guid: 05bb042cd5b8a74478a2ce6b807eefd5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6882622233477506092, guid: 05bb042cd5b8a74478a2ce6b807eefd5, type: 3}
       propertyPath: m_Sprite
       value: 

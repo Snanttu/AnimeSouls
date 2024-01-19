@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2981288425331707729}
   - component: {fileID: 1336731413256905183}
   m_Layer: 0
-  m_Name: Gloves_Fist_Front
+  m_Name: Gloves_Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2437994777131026795}
   - component: {fileID: 8886141358641139709}
   m_Layer: 0
-  m_Name: Fist_Fingers
+  m_Name: Fingers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 512935046339353118}
   - component: {fileID: 8570441319412636471}
   m_Layer: 0
-  m_Name: Fist_Front
+  m_Name: Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 6686780527325302426}
   - component: {fileID: 6704542600400411396}
   m_Layer: 0
-  m_Name: Fist_Back
+  m_Name: Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,12 +531,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea08d89996ddc4b4999ad34cc5ee2aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fist_front: {fileID: 512935046339353118}
-  fist_back: {fileID: 6686780527325302426}
-  fist_fingers: {fileID: 2437994777131026795}
-  gloves_fist_front: {fileID: 1336731413256905183}
-  gloves_fist_back: {fileID: 3176718273721670656}
-  gloves_fist_fingers: {fileID: 8380639572739681835}
+  fist: {fileID: 512935046339353118}
+  palm: {fileID: 6686780527325302426}
+  fingers: {fileID: 2437994777131026795}
+  gloves_fist: {fileID: 1336731413256905183}
+  gloves_palm: {fileID: 3176718273721670656}
+  gloves_fingers: {fileID: 8380639572739681835}
+  mask_fist: {fileID: 8570441319412636471}
+  mask_palm: {fileID: 6704542600400411396}
+  mask_fingers: {fileID: 8886141358641139709}
 --- !u!1 &7245931288705407987
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +633,7 @@ GameObject:
   - component: {fileID: 6149414157760903875}
   - component: {fileID: 3176718273721670656}
   m_Layer: 0
-  m_Name: Gloves_Fist_Back
+  m_Name: Gloves_Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,7 +715,7 @@ GameObject:
   - component: {fileID: 4386896709167147235}
   - component: {fileID: 8380639572739681835}
   m_Layer: 0
-  m_Name: Gloves_Fist_Fingers
+  m_Name: Gloves_Fingers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

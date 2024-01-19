@@ -34,6 +34,20 @@ public class Girl_Leg : MonoBehaviour
     [SerializeField]
     private SpriteRenderer pants_Behind;
 
+    [Header("Masks")]
+    [SerializeField]
+    private SpriteMask mask_thigh;
+    [SerializeField]
+    private SpriteMask mask_thigh_behind;
+    [SerializeField]
+    private SpriteMask mask_calf;
+    [SerializeField]
+    private SpriteMask mask_foot;
+    [SerializeField]
+    private SpriteMask mask_pants_calf;
+    [SerializeField]
+    private SpriteMask mask_pants_foot;
+
     public void UpdateLegsSprites(Sprite[] sprites, Sprite thighBehind = null)
     {
         thigh.sprite = sprites[0];

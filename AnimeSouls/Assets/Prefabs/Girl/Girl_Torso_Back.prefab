@@ -555,6 +555,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 382744310767657897}
     - target: {fileID: 1255528434770052313, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: mask_chest_behind
+      value: 
+      objectReference: {fileID: 443329164961865648}
+    - target: {fileID: 1255528434770052313, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: mask_bottom_behind
+      value: 
+      objectReference: {fileID: 7873959260432489960}
+    - target: {fileID: 1255528434770052313, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
       propertyPath: shirt_chest_behind
       value: 
       objectReference: {fileID: 1544561205539872254}
