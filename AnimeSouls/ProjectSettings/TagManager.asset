@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - Enemy
+  - Breakable
+  - Terrain
+  - Corpse
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - Weapon
+  - Breakable
+  - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Behind Characters
+    uniqueID: 4033835367
+    locked: 0
+  - name: Characters
+    uniqueID: 3791044153
+    locked: 0
+  - name: Front of Characters
+    uniqueID: 3176080045
+    locked: 0
+  - name: UI
+    uniqueID: 2835321391
+    locked: 0
