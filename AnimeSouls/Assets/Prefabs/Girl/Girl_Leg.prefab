@@ -483,9 +483,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thigh: {fileID: 1823563336095622163}
-  thigh_Behind: {fileID: 0}
   calf: {fileID: 1823563335570637503}
   foot: {fileID: 1823563335347537666}
+  pants_thigh: {fileID: 8565603150511588241}
+  pants_calf: {fileID: 7103074771696963720}
+  pants_foot: {fileID: 2702458455471364048}
+  boots_calf: {fileID: 1841780406004297867}
+  boots_calf_behind: {fileID: 7054471514514274917}
+  boots_foot: {fileID: 7054796594000561152}
+  thigh_Behind: {fileID: 0}
+  pants_Behind: {fileID: 0}
 --- !u!212 &1823563336095622163
 SpriteRenderer:
   m_ObjectHideFlags: 0

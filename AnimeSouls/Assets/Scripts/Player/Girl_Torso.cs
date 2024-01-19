@@ -12,11 +12,29 @@ public class Girl_Torso : MonoBehaviour
     [SerializeField]
     private SpriteRenderer neck;
 
+    [Header("Shirt")]
+    [SerializeField]
+    private SpriteRenderer shirt_bottom;
+    [SerializeField]
+    private SpriteRenderer shirt_chest;
+    [SerializeField]
+    private SpriteRenderer shirt_neck;
+
+    [Header("Pants")]
+    [SerializeField]
+    private SpriteRenderer pants_bottom;
+
     [Header("Extra")]
+    [SerializeField]
+    private SpriteRenderer chest_behind;
+    [SerializeField]
+    private SpriteRenderer shirt_chest_behind;
     [SerializeField]
     private SpriteRenderer bottom_behind;
     [SerializeField]
-    private SpriteRenderer chest_behind;
+    private SpriteRenderer shirt_bottom_behind;
+    [SerializeField]
+    private SpriteRenderer pants_bottom_behind;
 
     public void UpdateTorsoSprites(Sprite[] sprites, Sprite bottomBehind = null, Sprite chectBehind = null)
     {

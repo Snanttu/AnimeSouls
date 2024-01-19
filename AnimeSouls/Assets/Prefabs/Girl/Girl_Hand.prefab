@@ -534,6 +534,9 @@ MonoBehaviour:
   fist_front: {fileID: 512935046339353118}
   fist_back: {fileID: 6686780527325302426}
   fist_fingers: {fileID: 2437994777131026795}
+  gloves_fist_front: {fileID: 1336731413256905183}
+  gloves_fist_back: {fileID: 3176718273721670656}
+  gloves_fist_fingers: {fileID: 8380639572739681835}
 --- !u!1 &7245931288705407987
 GameObject:
   m_ObjectHideFlags: 0

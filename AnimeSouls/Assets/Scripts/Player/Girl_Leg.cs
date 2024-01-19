@@ -12,9 +12,27 @@ public class Girl_Leg : MonoBehaviour
     [SerializeField]
     private SpriteRenderer foot;
 
+    [Header("Pants")]
+    [SerializeField]
+    private SpriteRenderer pants_thigh;
+    [SerializeField]
+    private SpriteRenderer pants_calf;
+    [SerializeField]
+    private SpriteRenderer pants_foot;
+
+    [Header("Boots")]
+    [SerializeField]
+    private SpriteRenderer boots_calf;
+    [SerializeField]
+    private SpriteRenderer boots_calf_behind;
+    [SerializeField]
+    private SpriteRenderer boots_foot;
+
     [Header("Extra")]
     [SerializeField]
     private SpriteRenderer thigh_Behind;
+    [SerializeField]
+    private SpriteRenderer pants_Behind;
 
     public void UpdateLegsSprites(Sprite[] sprites, Sprite thighBehind = null)
     {
