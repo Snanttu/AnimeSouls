@@ -2,8 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BodyOrientation
+{
+    front,
+    side,
+    back
+}
+
+public enum BodyPart
+{
+    head,
+    torso,
+    armFront,
+    armBack,
+    handFront,
+    handBack,
+    legFront,
+    legBack
+}
+
 public class Girl_Body : MonoBehaviour
 {
+    [SerializeField]
+    private BodyOrientation orientation;
+
     [Header("Parts")]
     [SerializeField]
     private Girl_Head head;
@@ -22,9 +44,11 @@ public class Girl_Body : MonoBehaviour
     [SerializeField]
     private Girl_Leg leg_back;
 
-    public void ChangeShirt(Sprite[] sprites, Sprite[] masks)
+    public void ChangeShirt(Armor_Shirt shirt)
     {
-
+        torso.ChangeShirt(shirt.GetSprites(BodyPart.torso, orientation), shirt.GetMasks(BodyPart.torso, orientation));
+        arm_front.ChangeShirt(shirt.GetSprites(BodyPart.armFront, orientation), shirt.GetMasks(BodyPart.armFront, orientation));
+        arm_back.ChangeShirt(shirt.GetSprites(BodyPart.armBack, orientation), shirt.GetMasks(BodyPart.armBack, orientation));
     }
 
     public void ChangeGloves(Sprite[] sprites, Sprite[] masks)

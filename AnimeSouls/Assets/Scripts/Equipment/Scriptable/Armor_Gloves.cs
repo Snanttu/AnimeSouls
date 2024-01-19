@@ -6,9 +6,6 @@ using UnityEngine;
 public class Armor_Gloves : Equipment_Base
 {
     [SerializeField]
-    private Sprite[] _glovesSprites;
-
-    [SerializeField]
     private Sprite forearm_behind;
 
     [Header("Front_R")]
@@ -50,22 +47,5 @@ public class Armor_Gloves : Equipment_Base
     private Sprite mask_palm;
     [SerializeField]
     private Sprite mask_fingers;
-    [SerializeField]
-    private Sprite[] _masks;
-    [SerializeField]
-    private Sprite[] _handSprites;
 
-    public Sprite GetGlovesSprite(int _index)
-    {
-        return _glovesSprites[_index];
-    }
-    public Sprite GetMask(int _index)
-    {
-        return _masks[_index];
-    }
-
-    public Sprite GetHandsSprite(int _index)
-    {
-        return _handSprites[_index];
-    }
 }

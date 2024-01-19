@@ -6,13 +6,13 @@ public class Equipment_Manager : MonoBehaviour
 {
     [Header("Equipped Items")]
     [SerializeField]
-    private Armor_Shirt _equippedChest;
+    private Armor_Shirt equippedShirt;
     [SerializeField]
-    private Armor_Pants _equippedPants;
+    private Armor_Pants equippedPants;
     [SerializeField]
-    private Armor_Gloves _equippedGloves;
+    private Armor_Gloves equippedGloves;
     [SerializeField]
-    private Armor_Boots _equippedBoots;
+    private Armor_Boots equippedBoots;
 
     [Header("Body")]
     [SerializeField]
@@ -24,16 +24,16 @@ public class Equipment_Manager : MonoBehaviour
 
     [SerializeField]
     [HideInInspector]
-    private Armor_Shirt _currentChest;
+    private Armor_Shirt currentShirt;
     [SerializeField]
     [HideInInspector]
-    private Armor_Pants _currentPants;
+    private Armor_Pants currentPants;
     [SerializeField]
     [HideInInspector]
-    private Armor_Boots _currentBoots;
+    private Armor_Boots currentBoots;
     [SerializeField]
     [HideInInspector]
-    private Armor_Gloves _currentGloves;
+    private Armor_Gloves currentGloves;
 
     // Start is called before the first frame update
     void Start()
@@ -44,50 +44,37 @@ public class Equipment_Manager : MonoBehaviour
         ChangeGloves();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnValidate()
     {
-        if (_currentChest != _equippedChest)
-        {
-            ChangeChest();
-        }
-
-        if (_currentPants != _equippedPants)
-        {
-            ChangePants();
-        }
-
-        if (_currentBoots != _equippedBoots)
-        {
-            ChangeBoots();
-        }
-
-        if (_currentGloves != _equippedGloves)
-        {
-            ChangeGloves();
-        }
+        if (currentShirt != equippedShirt) ChangeChest();
+        if (currentPants != equippedPants) ChangePants();
+        if (currentBoots != equippedBoots) ChangeBoots();
+        if (currentGloves != equippedGloves) ChangeGloves();
     }
 
     public void ChangeChest()
     {
+        bodyFront.ChangeShirt(equippedShirt);
+        bodySide.ChangeShirt(equippedShirt);
+        bodyBack.ChangeShirt(equippedShirt);
 
-        _currentChest = _equippedChest;
+        currentShirt = equippedShirt;
     }
 
     public void ChangePants()
     {
 
-        _currentPants = _equippedPants;
+        currentPants = equippedPants;
     }
     public void ChangeBoots()
     {
 
-        _currentBoots = _equippedBoots;
+        currentBoots = equippedBoots;
     }
 
     public void ChangeGloves()
     {
 
-        _currentGloves = _equippedGloves;
+        currentGloves = equippedGloves;
     }
 }
