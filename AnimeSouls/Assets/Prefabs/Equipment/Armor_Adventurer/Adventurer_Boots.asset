@@ -43,6 +43,11 @@ MonoBehaviour:
   foot_back: {fileID: 21300000, guid: 3d566e4ae6b1bbf4e8047d9e89221744, type: 3}
   foot_side_F: {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
   foot_side_B: {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  mask_calf_front: {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  mask_calf_back: {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  mask_calf_side: {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  mask_foot_front: {fileID: 21300000, guid: b63b35ea241944140a7ca94473da79a5, type: 3}
+  mask_foot_side: {fileID: 21300000, guid: b63b35ea241944140a7ca94473da79a5, type: 3}
   _masks:
   - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
   - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}

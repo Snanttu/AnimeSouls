@@ -58,7 +58,43 @@ public class Armor_Shirt : Equipment_Base
     [SerializeField]
     private Sprite back_skirt_R;
 
+    [Header("Arms")]
+    [SerializeField]
+    private Sprite shoulder;
+    [SerializeField]
+    private Sprite bicep_front;
+    [SerializeField]
+    private Sprite bicep_back;
+    [SerializeField]
+    private Sprite bicep_side;
+    [SerializeField]
+    private Sprite forearm_left;
+    [SerializeField]
+    private Sprite forearm_right;
+
     [Header("Masks")]
+    [SerializeField]
+    private Sprite mask_front_bottom;
+    [SerializeField]
+    private Sprite mask_front_chest;
+    [SerializeField]
+    private Sprite mask_front_neck;
+    [SerializeField]
+    private Sprite mask_side_bottom;
+    [SerializeField]
+    private Sprite mask_side_chest;
+    [SerializeField]
+    private Sprite mask_side_neck;
+    [SerializeField]
+    private Sprite mask_back_bottom;
+    [SerializeField]
+    private Sprite mask_back_chest;
+    [SerializeField]
+    private Sprite mask_back_neck;
+    [SerializeField]
+    private Sprite mask_bicep;
+    [SerializeField]
+    private Sprite mask_forearm;
     [SerializeField]
     private Sprite[] _masks;
 

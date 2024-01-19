@@ -44,6 +44,11 @@ MonoBehaviour:
   back_forearm_L: {fileID: 21300000, guid: ec351b79545cc7c4cbfef3a97928bb8a, type: 3}
   back_palm_L: {fileID: 21300000, guid: bc6448d4e7e724d40bab211da131b3c6, type: 3}
   back_fingers_L: {fileID: 21300000, guid: ee335d00b23773a4dae59c9975e5cae5, type: 3}
+  mask_forearm_front: {fileID: 21300000, guid: 405df1d19f14cbc4f8e73990ca796373, type: 3}
+  mask_forearm_back: {fileID: 21300000, guid: 405df1d19f14cbc4f8e73990ca796373, type: 3}
+  mask_fist: {fileID: 21300000, guid: 32c6de474ed6af848bc8335e2343aa11, type: 3}
+  mask_palm: {fileID: 21300000, guid: 32c6de474ed6af848bc8335e2343aa11, type: 3}
+  mask_fingers: {fileID: 21300000, guid: 32c6de474ed6af848bc8335e2343aa11, type: 3}
   _masks:
   - {fileID: 21300000, guid: 405df1d19f14cbc4f8e73990ca796373, type: 3}
   - {fileID: 21300000, guid: 405df1d19f14cbc4f8e73990ca796373, type: 3}

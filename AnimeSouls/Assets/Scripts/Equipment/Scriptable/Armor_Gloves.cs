@@ -39,6 +39,17 @@ public class Armor_Gloves : Equipment_Base
     [SerializeField]
     private Sprite back_fingers_L;
 
+    [Header("Masks")]
+    [SerializeField]
+    private Sprite mask_forearm_front;
+    [SerializeField]
+    private Sprite mask_forearm_back;
+    [SerializeField]
+    private Sprite mask_fist;
+    [SerializeField]
+    private Sprite mask_palm;
+    [SerializeField]
+    private Sprite mask_fingers;
     [SerializeField]
     private Sprite[] _masks;
     [SerializeField]

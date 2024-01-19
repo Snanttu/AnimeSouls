@@ -48,6 +48,17 @@ public class Armor_Pants : Equipment_Base
     [SerializeField]
     private Sprite foot_side_B;
 
+    [Header("Mask")]
+    [SerializeField]
+    private Sprite mask_bottom_front;
+    [SerializeField]
+    private Sprite mask_bottom_side;
+    [SerializeField]
+    private Sprite mask_thigh;
+    [SerializeField]
+    private Sprite mask_calf;
+    [SerializeField]
+    private Sprite mask_foot;
     [SerializeField]
     private Sprite[] _masks;
 
