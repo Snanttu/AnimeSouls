@@ -33,6 +33,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 90b653953ebe4f04f87ae3238e6e32a9, type: 3}
   - {fileID: 21300000, guid: e3611775851f4514a9eb82fd92c89143, type: 3}
   - {fileID: 21300000, guid: 3d566e4ae6b1bbf4e8047d9e89221744, type: 3}
+  front_calf: {fileID: 21300000, guid: 98f6452b8bbd9574db3659df18e1361e, type: 3}
+  front_calf_behind: {fileID: 21300000, guid: d7a19285600ef8b448245a59ff97f5e9, type: 3}
+  side_calf: {fileID: 21300000, guid: 1ebc5de8067b7c542a90055e3c9c9e8b, type: 3}
+  side_calf_behind: {fileID: 21300000, guid: b524104db665dc24dae2aceb70c142e9, type: 3}
+  back_calf: {fileID: 21300000, guid: 90b653953ebe4f04f87ae3238e6e32a9, type: 3}
+  back_calf_behind: {fileID: 21300000, guid: e3611775851f4514a9eb82fd92c89143, type: 3}
+  foot_front: {fileID: 21300000, guid: a185a0084c5fc804796743f040f4a9ef, type: 3}
+  foot_back: {fileID: 21300000, guid: 3d566e4ae6b1bbf4e8047d9e89221744, type: 3}
+  foot_side_F: {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  foot_side_B: {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
   _masks:
   - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
   - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
