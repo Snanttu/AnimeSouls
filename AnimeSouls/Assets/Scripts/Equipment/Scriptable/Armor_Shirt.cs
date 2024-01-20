@@ -67,8 +67,6 @@ public class Armor_Shirt : Equipment_Base
     [SerializeField]
     private Sprite back_chest_behind;
     [SerializeField]
-    private Sprite back_bottom_behind;
-    [SerializeField]
     private Sprite back_skirt_L;
     [SerializeField]
     private Sprite back_skirt_M;
@@ -89,19 +87,13 @@ public class Armor_Shirt : Equipment_Base
 
     [Header("Masks")]
     [SerializeField]
-    private Sprite mask_front_bottom;
-    [SerializeField]
     private Sprite mask_front_chest;
     [SerializeField]
     private Sprite mask_front_neck;
     [SerializeField]
-    private Sprite mask_side_bottom;
-    [SerializeField]
     private Sprite mask_side_chest;
     [SerializeField]
     private Sprite mask_side_neck;
-    [SerializeField]
-    private Sprite mask_back_bottom;
     [SerializeField]
     private Sprite mask_back_chest;
     [SerializeField]
@@ -138,7 +130,7 @@ public class Armor_Shirt : Equipment_Base
 
     public Sprite[] FrontMasks(BodyPart bodyPart)
     {
-        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_front_bottom, mask_front_chest, mask_front_neck };
+        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_front_chest, mask_front_neck };
         else if (bodyPart == BodyPart.armFront) return new Sprite[] { mask_bicep_front, mask_forearm_front };
         else return new Sprite[] { mask_bicep_back, mask_forearm_back };
     }
@@ -152,21 +144,21 @@ public class Armor_Shirt : Equipment_Base
 
     public Sprite[] SideMasks(BodyPart bodyPart)
     {
-        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_side_bottom, mask_side_chest, mask_side_neck };
+        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_side_chest, mask_side_neck };
         else if (bodyPart == BodyPart.armFront) return new Sprite[] { mask_bicep_front, mask_forearm_front };
         else return new Sprite[] { mask_bicep_back, mask_forearm_back };
     }
 
     public Sprite[] BackSprites(BodyPart bodyPart)
     {
-        if (bodyPart == BodyPart.torso) return new Sprite[] { back_bottom, back_chest, back_neck, back_skirt_L, back_skirt_M, back_skirt_R, back_bottom_behind, back_chest_behind };
+        if (bodyPart == BodyPart.torso) return new Sprite[] { back_bottom, back_chest, back_neck, back_skirt_L, back_skirt_M, back_skirt_R, back_chest_behind };
         else if (bodyPart == BodyPart.armFront) return new Sprite[] { back_shoulder_front, back_bicep_front, back_forearm_front };
         else return new Sprite[] { back_shoulder_back, back_bicep_back, back_forearm_back };
     }
 
     public Sprite[] BackMasks(BodyPart bodyPart)
     {
-        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_back_bottom, mask_back_chest, mask_back_neck };
+        if (bodyPart == BodyPart.torso) return new Sprite[] { mask_back_chest, mask_back_neck };
         else if (bodyPart == BodyPart.armFront) return new Sprite[] { mask_bicep_front, mask_forearm_front };
         else return new Sprite[] { mask_bicep_back, mask_forearm_back };
     }
