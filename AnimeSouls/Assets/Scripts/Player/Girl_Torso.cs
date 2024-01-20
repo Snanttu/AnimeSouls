@@ -85,4 +85,20 @@ public class Girl_Torso : MonoBehaviour
             mask_chest_behind.sprite = masks[1];
         }
     }
+
+    public void ChangePants(Sprite[] sprites, Sprite[] masks)
+    {
+        pants_bottom.sprite = sprites[0];
+        mask_bottom.sprite = masks[0];
+
+        // skirt l sprites 1
+        // skirt m sprites 2
+        // skirt r sprites 3
+
+        if (bottom_behind != null)
+        {
+            pants_bottom_behind.sprite = sprites[4];
+            mask_bottom_behind.sprite = masks[0];
+        }
+    }
 }

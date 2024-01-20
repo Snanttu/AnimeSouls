@@ -51,17 +51,19 @@ public class Girl_Body : MonoBehaviour
         arm_back.ChangeShirt(shirt.GetSprites(BodyPart.armBack, orientation), shirt.GetMasks(BodyPart.armBack, orientation));
     }
 
-    public void ChangeGloves(Sprite[] sprites, Sprite[] masks)
+    public void ChangeGloves(Armor_Gloves gloves)
     {
 
     }
 
-    public void ChangePants(Sprite[] sprites, Sprite[] masks)
+    public void ChangePants(Armor_Pants pants)
     {
-
+        torso.ChangePants(pants.GetSprites(BodyPart.torso, orientation), pants.GetMasks(BodyPart.torso, orientation));
+        leg_front.ChangePants(pants.GetSprites(BodyPart.legFront, orientation), pants.GetMasks(BodyPart.legFront, orientation));
+        leg_back.ChangePants(pants.GetSprites(BodyPart.legBack, orientation), pants.GetMasks(BodyPart.legBack, orientation));
     }
 
-    public void ChangeBoots(Sprite[] sprites, Sprite[] masks)
+    public void ChangeBoots(Armor_Boots boots)
     {
 
     }

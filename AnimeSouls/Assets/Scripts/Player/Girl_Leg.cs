@@ -56,4 +56,22 @@ public class Girl_Leg : MonoBehaviour
 
         if (thigh_Behind != null && thighBehind != null) thigh_Behind.sprite = thighBehind;
     }
+
+    public void ChangePants(Sprite[] sprites, Sprite[] masks)
+    {
+        pants_thigh.sprite = sprites[0];
+        mask_thigh.sprite = masks[0];
+
+        pants_calf.sprite = sprites[1];
+        mask_calf.sprite = masks[1];
+
+        pants_foot.sprite = sprites[2];
+        mask_foot.sprite = masks[2];
+
+        if (pants_Behind != null)
+        {
+            pants_Behind.sprite = sprites[3];
+            mask_thigh_behind.sprite = masks[0];
+        }
+    }
 }

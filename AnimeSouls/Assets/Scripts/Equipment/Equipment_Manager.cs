@@ -38,10 +38,7 @@ public class Equipment_Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ChangeChest();
-        ChangePants();
-        ChangeBoots();
-        ChangeGloves();
+
     }
 
     private void OnValidate()
@@ -63,17 +60,26 @@ public class Equipment_Manager : MonoBehaviour
 
     public void ChangePants()
     {
+        bodyFront.ChangePants(equippedPants);
+        bodySide.ChangePants(equippedPants);
+        bodyBack.ChangePants(equippedPants);
 
         currentPants = equippedPants;
     }
     public void ChangeBoots()
     {
+        bodyFront.ChangeBoots(equippedBoots);
+        bodySide.ChangeBoots(equippedBoots);
+        bodyBack.ChangeBoots(equippedBoots);
 
         currentBoots = equippedBoots;
     }
 
     public void ChangeGloves()
     {
+        bodyFront.ChangeGloves(equippedGloves);
+        bodySide.ChangeGloves(equippedGloves);
+        bodyBack.ChangeGloves(equippedGloves);
 
         currentGloves = equippedGloves;
     }
