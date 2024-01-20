@@ -19,10 +19,22 @@ public class Girl_Torso : MonoBehaviour
     private SpriteRenderer shirt_chest;
     [SerializeField]
     private SpriteRenderer shirt_neck;
+    [SerializeField]
+    private SpriteRenderer shirt_skirt_L;
+    [SerializeField]
+    private SpriteRenderer shirt_skirt_M;
+    [SerializeField]
+    private SpriteRenderer shirt_skirt_R;
 
     [Header("Pants")]
     [SerializeField]
     private SpriteRenderer pants_bottom;
+    [SerializeField]
+    private SpriteRenderer pants_skirt_L;
+    [SerializeField]
+    private SpriteRenderer pants_skirt_M;
+    [SerializeField]
+    private SpriteRenderer pants_skirt_R;
 
     [Header("Extra")]
     [SerializeField]
@@ -69,9 +81,9 @@ public class Girl_Torso : MonoBehaviour
         shirt_neck.sprite = sprites[2];
         mask_neck.sprite = masks[2];
 
-        // skirt l sprites 3
-        // skirt m sprites 4
-        // skirt r sprites 5
+        shirt_skirt_L.sprite = sprites[3];
+        shirt_skirt_M.sprite = sprites[4];
+        shirt_skirt_R.sprite = sprites[5];
 
         if (bottom_behind != null)
         {
@@ -91,9 +103,9 @@ public class Girl_Torso : MonoBehaviour
         pants_bottom.sprite = sprites[0];
         mask_bottom.sprite = masks[0];
 
-        // skirt l sprites 1
-        // skirt m sprites 2
-        // skirt r sprites 3
+        pants_skirt_L.sprite = sprites[1];
+        pants_skirt_M.sprite = sprites[2];
+        pants_skirt_R.sprite = sprites[3];
 
         if (bottom_behind != null)
         {

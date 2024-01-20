@@ -574,6 +574,14 @@ PrefabInstance:
       propertyPath: shirt_bottom_behind
       value: 
       objectReference: {fileID: 5778414169672086895}
+    - target: {fileID: 1265376836175568760, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460694837055362692, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2932180042949631254, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 0
@@ -630,10 +638,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d121ea7de0b4c794888281b68ab9a0c0, type: 3}
+    - target: {fileID: 5946572247469253752, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6775098435902106469, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dd09f347928d635448c01a7a86911c62, type: 3}
+    - target: {fileID: 7799614348429222915, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8611262565922401082, guid: 137d4e5255bd0b54595dcd209f64d32e, type: 3}
       propertyPath: m_Name
       value: Girl_Torso_Back
