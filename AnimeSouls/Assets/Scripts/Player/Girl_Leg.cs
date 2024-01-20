@@ -74,4 +74,15 @@ public class Girl_Leg : MonoBehaviour
             mask_thigh_behind.sprite = masks[0];
         }
     }
+
+    public void ChangeBoots(Sprite[] sprites, Sprite[] masks)
+    {
+        boots_calf.sprite = sprites[0];
+        mask_pants_calf.sprite = masks[0];
+
+        boots_calf_behind.sprite = sprites[1];
+
+        boots_foot.sprite = sprites[2];
+        mask_pants_foot.sprite = masks[1];
+    }
 }

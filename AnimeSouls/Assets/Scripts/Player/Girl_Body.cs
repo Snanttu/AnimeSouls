@@ -65,6 +65,7 @@ public class Girl_Body : MonoBehaviour
 
     public void ChangeBoots(Armor_Boots boots)
     {
-
+        leg_front.ChangeBoots(boots.GetSprites(BodyPart.legFront, orientation), boots.GetMasks(BodyPart.legFront, orientation));
+        leg_back.ChangeBoots(boots.GetSprites(BodyPart.legBack, orientation), boots.GetMasks(BodyPart.legBack, orientation));
     }
 }
