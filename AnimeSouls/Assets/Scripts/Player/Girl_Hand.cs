@@ -34,4 +34,16 @@ public class Girl_Hand : MonoBehaviour
         palm.sprite = sprites[1];
         fingers.sprite = sprites[2];
     }
+
+    public void ChangeGloves(Sprite[] sprites, Sprite[] masks)
+    {
+        gloves_fist.sprite = sprites[2];
+        mask_fist.sprite = masks[1];
+
+        gloves_palm.sprite = sprites[3];
+        mask_palm.sprite = masks[2];
+
+        gloves_fingers.sprite = sprites[4];
+        mask_fingers.sprite = masks[3];
+    }
 }

@@ -53,7 +53,11 @@ public class Girl_Body : MonoBehaviour
 
     public void ChangeGloves(Armor_Gloves gloves)
     {
+        arm_front.ChangeGloves(gloves.GetSprites(BodyPart.armFront, orientation), gloves.GetMasks(BodyPart.armFront, orientation));
+        arm_back.ChangeGloves(gloves.GetSprites(BodyPart.armBack, orientation), gloves.GetMasks(BodyPart.armBack, orientation));
 
+        hand_front.ChangeGloves(gloves.GetSprites(BodyPart.armFront, orientation), gloves.GetMasks(BodyPart.armFront, orientation));
+        hand_back.ChangeGloves(gloves.GetSprites(BodyPart.armBack, orientation), gloves.GetMasks(BodyPart.armBack, orientation));
     }
 
     public void ChangePants(Armor_Pants pants)

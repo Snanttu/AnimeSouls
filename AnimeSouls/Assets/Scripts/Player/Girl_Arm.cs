@@ -51,4 +51,12 @@ public class Girl_Arm : MonoBehaviour
         shirt_forearm.sprite = sprites[2];
         mask_forearm.sprite = masks[1];
     }
+
+    public void ChangeGloves(Sprite[] sprites, Sprite[] masks)
+    {
+        gloves_forearm.sprite = sprites[0];
+        mask_shirt_forearm.sprite = masks[0];
+
+        gloves_forearm_behind.sprite = sprites[1];
+    }
 }
